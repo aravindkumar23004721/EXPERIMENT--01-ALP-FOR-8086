@@ -1,10 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-```
 Name : Aravind Kumar SS
-Roll no : 212223110004
-Date of experiment : 12-09-2024
-```
 
+Roll no : 212223110004
+
+Date of experiment : 12-09-2024
 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
