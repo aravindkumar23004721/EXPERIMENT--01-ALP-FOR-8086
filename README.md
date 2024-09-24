@@ -80,14 +80,14 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
+```
 org 100h
 MOV al,11h;
 MOV bl,20h;
 ADD al,bl;
 MOV [6379h],al;
 ret
-
+```
 
 
 ## Output  
@@ -95,82 +95,86 @@ ret
 
  
 ## Subtraction   of 8 bit numbers  ALP 
-
+```
 org 100h
 MOV al,20h;
 MOV bl,[8778h];
 SUB bl,al;
 MOV [8798h],bl;
 ret
+```
  
 ## Output  
 ![image](https://github.com/user-attachments/assets/697089f8-1245-4711-bde8-19ea817bfff0)
 
 ## Multiplication alp 
-
+```
 org 100h
  MOV al,13h;
  MOV bl,2h;
  MUL bl;
  MOV [6063h],bl;
  ret
+```
 
  ## Output 
  ![image](https://github.com/user-attachments/assets/5189c11f-cf43-48b0-9f88-121ecbe9c0de)
 
 ## Division alp 
 
+```
 org 100h
  MOV al,26h;
  MOV bl,[2369h];
  DIV bl;
  MOV [2399h],al;
  ret
+```
 
 ## OUTPUT
 ![Screenshot 2024-08-21 143906](https://github.com/user-attachments/assets/f128d049-2f4b-4ba5-9c13-ef06e77488a0)
 
 ## Programs For Logical Operators:
 ## AND
-
+```
 org 100h
 mov bx,1000h;
 and bx,1111h;
 mov [0040h+02],bx;
 ret
-
+```
 ## Output  
 ![image](https://github.com/user-attachments/assets/aeb4a450-e808-4ec4-8201-602a96b20252)
 
 ## OR:
-
+```
 MOV SI,0532H;
 MOV AX,0A32H;
 MOV BX,0B13H;
 OR AX,BX;
-
+```
 ## Output
 ![image](https://github.com/user-attachments/assets/e4dfef9b-2c80-4758-8afa-51edf5bac0ea)
 
 ## NOT:
-
+```
 org 100h
 mov bx,0040h;
 mov ax,[bx]; 
 not al;
 mov [0040h+04],ax;
 ret
-
+```
 ## Output
 ![image](https://github.com/user-attachments/assets/80e5a7d3-89b9-4756-ae19-8ab5fa6844f6)
 
 ## XOR:
-
+```
 MOV [SI+2],AX;
 MOV AX,0A32H;
 MOV BX,0B13H;
 XOR AX,BX;
-
+```
 ## Output:
 ![image](https://github.com/user-attachments/assets/f90ba85a-5455-4f20-b4bc-2ad80fcbd183)
 
