@@ -3,7 +3,7 @@ Name : Aravind Kumar SS
 
 Roll no : 212223110004
 
-Date of experiment : 12-09-2024
+Date of experiment : 13-08-2024
 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
