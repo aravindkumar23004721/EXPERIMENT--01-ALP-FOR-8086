@@ -140,5 +140,4 @@ XOR AX,BX;
 ```
 ## Output:
 ![image](https://github.com/user-attachments/assets/f90ba85a-5455-4f20-b4bc-2ad80fcbd183)
-
 ## Result : Thus, to write and execute ALP on fundamental arithmetic operations and Logical operations is successful.
